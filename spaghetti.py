@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-#일단 개선 진행중
+#추가 개선 완료
 np.random.seed(0); data = np.random.randn(100, 2)
 fig, axes = plt.subplots(2, 2, figsize=(12, 10))
 a = data[:, 0]; b = data[:, 1]; axes[0, 0].bar(['Mean', 'Median'], [np.mean(a), np.median(a)],
